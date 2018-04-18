@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Projeto Integrador Bandas e Casas de Show</string>
+    <string name="se">Fechar</string>
+    <string name="si">Sair</string>
+
+    <string-array name="Bairro">
+        <item>Aguas Lindas</item>
+        <item>Guamá</item>
+        <item>Pedreira</item>
+        <item>São Brás</item>
+        <item>Reduto</item>
+        <item>Cidade Velha</item>
+
+    </string-array>
+    <string name="title_activity_usuario__banda">Usuario_Banda</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_usuario__casa__show">Usuario_Casa_Show</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

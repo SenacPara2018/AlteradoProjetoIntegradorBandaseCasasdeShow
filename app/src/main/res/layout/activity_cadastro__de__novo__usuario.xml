@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appdigital.projetointegradorbandasecasasdeshow.cadastro.Cadastro_De_Novo_Usuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/edtNomeCasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome da casa de show"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtEmailContato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email para contato"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtTelefoneContato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telefone para contato"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtSenhaCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Passoword"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edtConfirmarSenhaCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Comfirmar passoword"
+            android:inputType="textPassword" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabSaveCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="50dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/background_dark"
+            app:srcCompat="@drawable/ic_action_name" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_carregar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+    </FrameLayout>
+
+</FrameLayout>
